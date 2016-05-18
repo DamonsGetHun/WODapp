@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sabod.testapp1.DisplayMessageActivity">
+    <item android:id="@+id/icon_app"
+        android:title="icon_app"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"
+        />
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_whiteboard"
+        android:title="@string/action_whiteboard"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_wod"
+        android:title="@string/action_wod"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_lift"
+        android:title="@string/action_lift"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_Previous_Performance"
+        android:title="@string/Previous_Performance"
+        app:showAsAction="never"  />
+
+</menu>
